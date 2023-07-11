@@ -1325,6 +1325,7 @@ blockquote {
   justify-content: flex-start;
   align-items: center;
   display: block;
+  padding-top: 20px;
 }
 
 .hero-section.about-hero {
