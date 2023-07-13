@@ -1378,8 +1378,9 @@ blockquote {
 }
 
 .hero-wrapper {
-  width: 500px;
-  height: 370px;
+  width: 60%;
+  padding: 10px;
+  height: auto;
   opacity: .79;
   background-color: #222;
   border-radius: 13px;
@@ -2289,13 +2290,6 @@ blockquote {
     font-size: 30px;
   }
 
-  .hero-heading {
-    width: 60%;
-  }
-
-  .hero-paragraph {
-    width: 55%;
-  }
 
   .support-square {
     min-height: 330px;
@@ -2585,6 +2579,12 @@ blockquote {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .hero-wrapper {
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .banner {
     font-size: 15px;
@@ -2607,11 +2607,7 @@ blockquote {
     background-position: 0 0, 80%;
   }
 
-  .hero-wrapper {
-    height: 250px;
-    justify-content: flex-end;
-    padding-bottom: 45px;
-  }
+  
 
   .hero-heading {
     font-size: 30px;
